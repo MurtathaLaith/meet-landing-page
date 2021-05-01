@@ -120,6 +120,9 @@ top: 28px;
       background-size:cover;
       
 }
+.rounded{
+    border-radius: 30px;
+}
 .footer-row{
     padding: 60px 0px;
 }
