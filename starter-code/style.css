@@ -1,0 +1,147 @@
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    overflow-x: hidden;
+}
+img{
+    flex-shrink: 0;
+}
+html{
+    overflow-x: hidden;
+}
+h1{
+    font-family: 'Red Hat Display';
+    font-size: 64px;
+    font-weight: bold;
+}
+h2{
+    font-family: 'Red Hat Display';
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: bold;
+}
+.overline{
+    font-family: 'Red Hat Display';
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 4px;
+    color: #4D96A9;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.body-text{
+    font-family: 'Red Hat Display';
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: medium;
+    color: #87879D;
+}
+
+.btn-blue{
+    border: none;
+    background:none;
+    font-weight: 500;
+    background-color: #4D96A9;
+    color: white;
+    border-radius: 200px;
+    transition-duration: 0.1s;
+}
+.btn-blue span{
+    color: #8FE3F9;
+    
+}
+.btn-purpul{
+    border: none;
+    background:none;
+    font-weight: 500;
+    color: white;
+    background-color: #855FB1;
+    border-radius: 200px;
+    transition-duration: 0.1s;
+
+}
+.btn-blue:hover{
+background-color: #71C0D4;
+transition-duration: 0.2s;
+}
+.btn-purpul:hover{
+    background-color: #B18BDD;
+    transition-duration: 0.2s;
+
+}
+.btn-purpul span{
+    color: #D9B8FF;
+    
+}
+.vl{
+    height: 84px;
+    border-left: 1px solid #DDDDE2;
+}
+.cirlce-2-pos{
+position: relative; 
+top: 28px;
+
+}
+.circle{
+    border:1px solid #DDDDE2;
+    border-radius: 500px;
+    width: 56px;
+    height: 56px;
+    text-align: center;
+    font-weight: bold;
+}
+.circle span{
+    color: #87879D;
+}
+.imgs{
+    flex-shrink: 0;
+    
+}
+
+.footer-head{
+    font-family: 'Red Hat Display';
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: bold;
+    color: white;
+}
+.footer-text{
+    color: white;
+}
+.filt{
+    filter: brightness(67%) sepia(4) hue-rotate(-201deg) saturate(300%) contrast(50%) opacity(0.9);
+      
+}
+.footer-bg{
+    background: url(../starter-code/assets/desktop/image-footer.jpg);
+    background-position: top;
+      background-repeat: no-repeat;
+      background-size:cover;
+      
+}
+.footer-row{
+    padding: 60px 0px;
+}
+
+ @media (min-width: 0px) {
+    .hero-left{
+        height: none;
+    }
+    .hero-right{
+        height: none;
+    }
+    .footer-content{
+        text-align: center;
+    }
+}
+@media (min-width: 576px) {
+    .footer-content{
+        text-align: left;
+    }
+}
+@media (min-width: 768px) {
+    
+}
+@media (min-width: 1200px) {
+}
